@@ -10,7 +10,7 @@
     "@uppy/core": "^2.1.1",
     "@uppy/xhr-upload": "^2.0.3",
     "@wangeditor-next/core": ">=1.2.2",
-    "@wangeditor-next/editor": "^5.2.5",
+    "@wangeditor-next/editor": "^5.3.5",
     "@wangeditor-next/editor-for-react": "^1.0.2",
     "antd": "^4.16.13",
     "dom7": "^3.0.0",
