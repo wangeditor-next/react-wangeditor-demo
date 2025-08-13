@@ -2,7 +2,7 @@ import React from 'react';
 // import { Modal, Button } from 'antd'
 import MyEditor from './components/MyEditor';
 
-function App() {
+const App: React.FC = () => {
   // const [isModalVisible, setIsModalVisible] = useState(false)
 
   // const showModal = () => {
@@ -29,6 +29,6 @@ function App() {
       <MyEditor />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,16 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import './index.css';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import 'antd/dist/antd.css';
+const container = document.getElementById('root');
+if (!container) {
+  throw new Error('Root element not found');
+}
 
-ReactDOM.render(
-  <>
+const root = createRoot(container);
+root.render(
+  <React.StrictMode>
     <App />
-  </>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
