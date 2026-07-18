@@ -7,7 +7,7 @@
 - React 18
 - TypeScript 5.2
 - Antd 5.9
-- wangEditor 5.6
+- wangEditor-next 6
 - Create React App
 
 ## 本地运行
@@ -16,6 +16,10 @@
 pnpm install
 pnpm dev
 ```
+
+该示例使用 `@wangeditor-next/editor@^6.0.0`、
+`@wangeditor-next/editor-for-react@^3.0.0` 以及兼容 v6 的插件版本。新的项目建议优先使用
+[官方 React 模板](https://github.com/wangeditor-next/demo-templates/tree/main/demo-react)。
 
 ## 可用命令
 
